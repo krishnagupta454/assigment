@@ -1,7 +1,6 @@
+total = 0
 
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
+for i in range(1, 51):
+    total += i
 
-full_name = first_name + " " + last_name
-
-print(f"\nHello, {full_name}! Welcome to the Python world!")
+print("The sum of integers from 1 to 50 is:", total)
