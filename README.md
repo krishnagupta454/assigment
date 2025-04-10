@@ -1,13 +1,12 @@
 # assigment
 
-Task 1: Basic Mathematical Operations
+Task 1: Even or Odd Checker
 
-- Takes two numbers as input from the user.
-- Performs addition, subtraction, multiplication, and division.
-- Displays the results of all operations.
+- Accepts an integer input from the user
+- Determines if the number is even or odd
+- Displays the result clearly.
 
-Task 2: Personalized Greeting
+Task 2: Sum of Integers from 1 to 50
 
-- Takes the user's first and last name.
-- Concatenates them to form a full name.
-- Displays a friendly greeting using the full name
+- Uses a loop structure to iterate through a range
+- Accumulates and prints the total sum
