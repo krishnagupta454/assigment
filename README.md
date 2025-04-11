@@ -1,12 +1,13 @@
 # assigment
 
-Task 1: Even or Odd Checker
+Task 1: Calculate Factorial Using a Function
 
-- Accepts an integer input from the user
-- Determines if the number is even or odd
-- Displays the result clearly.
+The factorial(n) function checks if the number is 0 or 1 and returns 1.
+Otherwise, it recursively calls itself with n-1 and multiplies the result.
+The function is called with the number 5 and prints the result.
 
-Task 2: Sum of Integers from 1 to 50
+Task 2: Using the Math Module for Calculations
 
-- Uses a loop structure to iterate through a range
-- Accumulates and prints the total sum
+Square root using math.sqrt()
+Natural logarithm using math.log()
+Sine of the number (in radians) using math.sin()
