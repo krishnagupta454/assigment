@@ -1,6 +1,9 @@
-num = int(input("Enter an integer: "))
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
 
-if num % 2 == 0:
-    print(f"The number {num} is even.")
-else:
-    print(f"The number {num} is odd.")
+number = 5
+result = factorial(number)
+print(f"Factorial of {number} is: {result}")
