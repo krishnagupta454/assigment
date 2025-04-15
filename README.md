@@ -1,13 +1,13 @@
 # assigment
 
-Task 1: Calculate Factorial Using a Function
+Task 1: Read a File and Handle Errors
 
-The factorial(n) function checks if the number is 0 or 1 and returns 1.
-Otherwise, it recursively calls itself with n-1 and multiplies the result.
-The function is called with the number 5 and prints the result.
+- Opens and reads a file named 'sample.txt'.
+- Prints its content line by line.
+- If the file does not exist, it shows an error message
 
-Task 2: Using the Math Module for Calculations
+Task 2:  Write and Append Data to a File
 
-Square root using math.sqrt()
-Natural logarithm using math.log()
-Sine of the number (in radians) using math.sin()
+- Takes user input and writes it to 'output.txt'.
+- Takes additional input and appends it to the same file.
+- Reads and displays the final content of 'output.txt'.
