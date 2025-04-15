@@ -1,9 +1,8 @@
-def factorial(n):
-    if n == 0 or n == 1:
-        return 1
-    else:
-        return n * factorial(n - 1)
+try:
+    with open("sample.txt", "r") as file:
+        print("File Content:\n")
+        for line in file:
+            print(line.strip())
+except FileNotFoundError:
+    print("Error: 'sample.txt' does not exist.")
 
-number = 5
-result = factorial(number)
-print(f"Factorial of {number} is: {result}")
