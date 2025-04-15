@@ -1,11 +1,12 @@
-import math
+user_input = input("Enter some text to write to the file: ")
+with open("output.txt", "w") as file:
+    file.write(user_input + "\n")
 
-num = float(input("Enter a number: "))
+additional_input = input("Enter additional text to append to the file: ")
+with open("output.txt", "a") as file:
+    file.write(additional_input + "\n")
 
-sqrt_val = math.sqrt(num)
-log_val = math.log(num)  
-sine_val = math.sin(num) 
-
-print(f"\nSquare root of {num} is: {sqrt_val}")
-print(f"Natural logarithm of {num} is: {log_val}")
-print(f"Sine of {num} radians is: {sine_val}")
+print("\nFinal content of 'output.txt':\n")
+with open("output.txt", "r") as file:
+    for line in file:
+        print(line.strip())
