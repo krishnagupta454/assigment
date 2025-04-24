@@ -1,13 +1,12 @@
-# assigment
+  # assigment
 
-Task 1: Read a File and Handle Errors
+Task 1: Student Marks Lookup
 
-- Opens and reads a file named 'sample.txt'.
-- Prints its content line by line.
-- If the file does not exist, it shows an error message
+This program creates a dictionary of student names and their marks.  
+It asks the user to input a student's name and then shows their marks.  
+If the student is not found, it displays a message saying so.
 
-Task 2:  Write and Append Data to a File
+Task 2:  List Slicing
 
-- Takes user input and writes it to 'output.txt'.
-- Takes additional input and appends it to the same file.
-- Reads and displays the final content of 'output.txt'.
+This program creates a list of numbers from 1 to 10.  
+It extracts the first five numbers, reverses them, and prints both.
