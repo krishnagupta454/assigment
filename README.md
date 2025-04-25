@@ -1,12 +1,12 @@
-  # assigment
 
-Task 1: Student Marks Lookup
+Task 1: Read a File and Handle Errors
 
-This program creates a dictionary of student names and their marks.  
-It asks the user to input a student's name and then shows their marks.  
-If the student is not found, it displays a message saying so.
+- Opens and reads a file named
+- Prints each line of the file
+- Gracefully handles the error if the file is not found
 
-Task 2:  List Slicing
+Task 2: Write and Append Data to a File
 
-This program creates a list of numbers from 1 to 10.  
-It extracts the first five numbers, reverses them, and prints both.
+- Takes user input and writes it to 
+- Appends additional input to the same file
+- Displays the final content of the file
