@@ -1,8 +1,16 @@
-numbers = list(range(1, 11))
+def write_and_append_file():
+    user_input = input("Enter some data to write to the file: ")
+    with open("output.txt", "w") as file:
+        file.write(user_input + "\n")
 
-first_five = numbers[:5]
+    additional_input = input("Enter more data to append to the file: ")
+    with open("output.txt", "a") as file:
+        file.write(additional_input + "\n")
 
-reversed_first_five = first_five[::-1]
+    print("\nFinal content of 'output.txt':")
+    with open("output.txt", "r") as file:
+        for line in file:
+            print(line.strip())
 
-print("First five elements:", first_five)
-print("Reversed first five elements:", reversed_first_five)
+if __name__ == "__main__":
+    write_and_append_file()
